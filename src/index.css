@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --orange: #FF5C28;
+  --dark: #1A0A00;
+  --cream: #FFF8F0;
+  --amber: #FFB347;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--dark);
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.btn-primary {
+  background: var(--orange);
+  color: white;
+  padding: 0.85rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #e04a18;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 92, 40, 0.35);
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  padding: 0.85rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 2px solid white;
+  transition: all 0.2s;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: var(--dark);
+  transform: translateY(-2px);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+.fade-up { animation: fadeUp 0.7s ease forwards; }
+.float-anim { animation: float 3s ease-in-out infinite; }
