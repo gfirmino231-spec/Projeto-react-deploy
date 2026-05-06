@@ -30,7 +30,7 @@ export default function Contact() {
 
   return (
     <section id="contato" style={{ background: 'linear-gradient(135deg, #1A0A00, #2E1000)', padding: '6rem 1.5rem' }}>
-      <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
 
         {/* Left */}
         <div>

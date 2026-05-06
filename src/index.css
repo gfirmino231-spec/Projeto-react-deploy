@@ -77,3 +77,8 @@ h1, h2, h3 {
 
 .fade-up { animation: fadeUp 0.7s ease forwards; }
 .float-anim { animation: float 3s ease-in-out infinite; }
+
+section > div {
+  margin-left: auto;
+  margin-right: auto;
+}
