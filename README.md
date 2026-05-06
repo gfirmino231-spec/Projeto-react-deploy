@@ -47,6 +47,8 @@ npm run build
 ## 👥 Integrantes do Grupo
 
 Gustavo Firmino Barbosa RM-566903
+Helton Pacheco dos Santos RM-567113
+Geovanna Caroline Lima Santos RM-567754
 
 ---
 © 2025 GourmetOn — Check-Point 05 | Prof. Lucas Sousa
