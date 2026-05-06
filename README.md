@@ -46,7 +46,7 @@ npm run build
 
 ## 👥 Integrantes do Grupo
 
-(Adicionar os nomes aqui)
+Gustavo Firmino Barbosa RM-566903
 
 ---
 © 2025 GourmetOn — Check-Point 05 | Prof. Lucas Sousa
